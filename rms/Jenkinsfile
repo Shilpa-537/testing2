@@ -1,6 +1,8 @@
 stage("Test"){
+    def actions = false
     if (params.actions == null){                 
              println "Stopped"
+             println "params.action"
     } else {
      println "not working"
      }

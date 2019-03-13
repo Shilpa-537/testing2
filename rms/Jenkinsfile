@@ -1,0 +1,7 @@
+stage("Test"){
+    if (params.actions == null){                 
+             println "Stopped"
+    } else {
+     println "not working"
+     }
+}
